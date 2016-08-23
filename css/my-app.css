@@ -1,0 +1,185 @@
+.navbar {
+	background: #007AFF;
+	color: #FFF;
+}
+.content-block {
+	margin:0;
+	padding: 0px;
+	/*border-top: solid 1px #929292;*/
+}
+.tabs-content {
+	background: #fff;
+}
+.buttons-row {
+	padding-top: 5px;
+	border-bottom: solid 1px #cfcfcf;
+	border-top: solid 1px #929292; 
+}
+.buttons-row .button {
+	color: #6d6d72;
+	border: none;
+	border-radius: 0;
+}
+.buttons-row .button:first-child,
+.buttons-row .button:last-child {
+	border-radius: 0;
+	border-left: none;
+	border-right: none;
+}
+.buttons-row .active {
+	background: #fff;
+	color: #6d6d72;
+	border-bottom: solid 2px #f44336;
+}
+.midtabbar .toolbar-inner{
+	padding: 5px 0;
+}
+.card {
+	margin: 10px 0;
+}
+.card .header-right {
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.card .header-right p {
+	text-align: right;
+	font-size: 10px;
+	margin: 0;
+}
+.card .header-right .scout {
+	padding: 0 5px;
+	font-size: 10px;
+	color: #fff;
+	background: #f00;
+	border-radius: 5px;
+}
+.facebook-card .card-header {
+    display: block;
+    padding: 10px;
+}
+.facebook-card .facebook-avatar {
+    float: left;
+}
+.facebook-card .facebook-name {
+    margin-left: 44px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.facebook-card .facebook-name i {
+	font-weight: bold;
+	margin-right: 3px;
+}
+.facebook-card .facebook-name .school {
+	font-weight: normal;
+}
+.facebook-card .facebook-name .fa-venus {
+	color: #007aff;	
+}
+.facebook-card .facebook-major {
+    margin-left: 44px;
+    font-size: 13px;
+    color: #8e8e93;
+}
+.facebook-card .facebook-major .grade {
+	display: inline-block;
+	padding: 0 5px;
+	margin-left: 10px;
+}
+.facebook-card .card-footer {
+    background: #fafafa;
+}
+.facebook-card .card-footer a {
+    color: #81848b;
+    font-weight: 500;
+}
+.facebook-card .card-content img {
+    display: block;
+}
+.facebook-card .card-content-inner {
+	padding: 15px 10px;
+}
+.facebook-card .card-content-inner h3 {
+	margin: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.facebook-card .card-content-inner p img{
+	border: solid 1px #cfcfcf;
+}
+.card-content .feeds-bottom {
+	color: #8e8e93;
+}
+.card-content .feeds-bottom span {
+	display: inline-block;
+	margin: 0 5px;
+}  
+.card-content .like i{
+	color: #007aff;
+}
+.card-content .want i{
+	color: #D85960;
+}
+.card-content .comments i{
+	color: #9eb300;
+}
+.card-content .seen {
+	float: right;
+	color: #000;
+}
+.toolbar i.fa {
+	font-size: 28px;
+}
+.searchbar {
+	background: #fff;
+}
+.searchbar input[type=search] {
+	background-color: #c9c9ce;
+}
+.searchbar .searchbar-clear {
+	opacity: 1;
+}
+.searchbar .location {
+	margin-right: 10px;
+}
+.searchbar .location select {
+	border: none;
+  	/*很关键：将默认的select选择框样式清除*/
+  	appearance:none;
+  	-moz-appearance:none;
+  	-webkit-appearance:none;
+}
+.searchbar .location a {
+	padding-right: 15px;
+	color: #000;
+}
+.searchbar .location i {
+	float: right;
+}
+.swiper-container {
+  height: 150px;
+}
+.searchbar .searchbar-input {
+	width: 80%;
+}
+.swiper-slide {
+  background:#fff;
+}
+.swiper-slide span {
+  text-align:center;
+  display:block;
+  margin:20px;
+  font-size:21px;
+}
+.toolbar-bottom .toolbar-inner{
+	padding: 0px;
+	background: #F8F8F8;
+}
+.toolbar-bottom .toolbar-inner .active {
+	background: #f44336;
+	color: #fff;
+}
+.swiper-pagination-bullet-active {
+	background: #f44336;
+}
