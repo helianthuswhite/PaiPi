@@ -17,10 +17,24 @@ var mySwiper = myApp.swiper('.swiper-container', {
   speed:400
 });
 
-$$('.card').on('click', function (e) {
+$$('.camerist .card').on('click', function (e) {
     location.href = 'more.html'
 });
 
 $$('.back-button').on('click', function (e) {
 	location.href = window.history.go(-1);
 });
+
+//图片浏览器
+var myPhotoBrowserStandalone = myApp.photoBrowser({
+    photos : [
+        'img/test1.jpg',
+        'img/test2.jpg',
+        'img/test3.jpg',
+    ]
+});
+//Open photo browser on click
+$$('.card-content .feeds-bottom .more').on('click', function () {
+    myPhotoBrowserStandalone.open();
+});
+ 

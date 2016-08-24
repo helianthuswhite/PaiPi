@@ -3,7 +3,7 @@
 	display: block;
 	clear: both;
 }
-.navbar {
+.view-main .navbar {
 	background: #007AFF;
 	color: #FFF;
 }
@@ -119,6 +119,12 @@
 .card-content .feeds-bottom span {
 	display: inline-block;
 	margin: 0 5px;
+}
+.card-content .feeds-bottom .more {
+	display: inline-block;
+	float: right;
+	color: #007aff;
+	margin-right: 10px;
 }  
 .card-content .like i{
 	color: #007aff;
@@ -162,7 +168,7 @@
 .searchbar .location i {
 	float: right;
 }
-.swiper-container {
+.view-main .swiper-container {
   height: 150px;
 }
 .searchbar .searchbar-input {
@@ -241,4 +247,20 @@
 	margin: 5px 0;
 	color: #fff;
 	text-align: center;
+}
+.more .card-header-pic .card-header {
+    height: 40vw;
+    background-size: cover;
+    background-position: center;
+}
+.more .card-content .article {
+	height: 57px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.more .page-content {
+	padding-bottom: 0px;
+}
+.more div[data-page=photo-browser-slides] {
+	z-index: 999999;
 }
