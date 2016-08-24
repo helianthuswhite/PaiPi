@@ -17,4 +17,10 @@ var mySwiper = myApp.swiper('.swiper-container', {
   speed:400
 });
 
+$$('.card').on('click', function (e) {
+    location.href = 'more.html'
+});
 
+$$('.back-button').on('click', function (e) {
+	location.href = window.history.go(-1);
+});

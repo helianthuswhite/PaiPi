@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>拍π</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+    <!-- Font Awesome字体库 -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head>
+  <body>
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main more">
+        <!-- Top Navbar-->
+        <div class="navbar">
+          <div class="navbar-inner bg-red">
+            <div class="left back-button"><i class="fa fa-chevron-left"></i></div>
+            <!-- We have home navbar without left link-->
+            <div class="center sliding">W_littlewhite</div>
+          </div>
+        </div>
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="page navbar-through toolbar-through">
+          <!-- Page, data-page contains page name-->
+          <div data-page="more" class="page">
+            <div class="page-content">
+            <!-- head-container -->
+              <div class="head-container">
+                <div class="overlay clearfix">
+                  <div class="left icon">
+                    <a href=""><i class="fa fa-plus"></i></a>
+                  </div>
+                  <div class="center">
+                    <img src="img/test2.jpg">
+                    <p><span>哈尔滨工业大学</span></p>
+                    <P><span>软件工程</span>&nbsp;/&nbsp;<span>大二</span></P>
+                  </div>
+                  <div class="right icon">
+                    <a href=""><i class="fa fa-envelope-o"></i></a>
+                  </div>
+                </div>
+              </div>
+              <!-- 标签栏 -->
+              <div class="content-block tabs-content">
+                <!-- Buttons row as tabs controller -->
+                <div class="buttons-row">
+                  <!-- Link to 1st tab, active -->
+                  <a href="#tab1" class="tab-link active button">个人作品</a>
+                  <span>|</span>
+                  <!-- Link to 2nd tab -->
+                  <a href="#tab2" class="tab-link button">发表文章</a>
+                  <span>|</span>
+                  <!-- Link to 3rd tab -->
+                  <a href="#tab3" class="tab-link button">粉丝</a>
+                </div>
+              </div>
+              <!-- Tabs, tabs wrapper -->
+              <div class="tabs">
+                <!-- Tab 1, active by default -->
+                <div id="tab1" class="tab active">
+                  <div class="content-block">
+                    <p>This is tab 1 content</p>
+                    ...
+                  </div>
+                </div>
+                <!-- Tab 2 -->
+                <div id="tab2" class="tab">
+                  <div class="content-block">
+                    <p>This is tab 2 content</p>
+                    ...
+                  </div>
+                </div>
+                <!-- Tab 3 -->
+                <div id="tab3" class="tab">
+                  <div class="content-block">
+                    <p>This is tab 3 content</p>
+                    ...
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- 发布结束 -->
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
