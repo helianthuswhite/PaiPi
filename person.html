@@ -22,10 +22,9 @@
         <!-- Top Navbar-->
         <div class="navbar">
           <div class="navbar-inner bg-red">
-            <div class="left back-button"><i class="fa fa-chevron-left"></i></div>
             <!-- We have home navbar without left link-->
             <div class="center sliding">W_littlewhite</div>
-            <div class="right buy-button"><a href="">下单</a></div>
+            <div class="right buy-button"><a href="">编辑</a></div>
           </div>
         </div>
         <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
@@ -92,7 +91,7 @@
                           <span class="want"><i class="fa fa-heart">&nbsp;</i>100</span>
                           <span class="comments"><i class="fa fa-comment">&nbsp;</i>34</span>
                           <span class="like"><i class="fa fa-thumbs-up">&nbsp;</i>999</span>
-                          <span class="person link">查看大图</span>
+                          <span class="more link">查看大图</span>
                         </div>
                        </div>
                       </div>
@@ -112,7 +111,7 @@
                       </div>
                       <div class="card-footer">
                         <a href="#" class="like color-red"><i class="fa fa-heart">&nbsp;</i>100</a>
-                        <a href="#" class="link">Read person</a>
+                        <a href="#" class="link">Read more</a>
                       </div>
                     </div>
                     <div class="card card-header-pic">
@@ -125,7 +124,7 @@
                       </div>
                       <div class="card-footer">
                         <a href="#" class="link color-red"><i class="fa fa-heart">&nbsp;</i>100</a>
-                        <a href="#" class="link">Read person</a>
+                        <a href="#" class="link">Read more</a>
                       </div>
                     </div>
                   </div>
@@ -192,6 +191,127 @@
       </div>
     </div>
 
+    <!-- 下单侧栏打开 -->
+    <div id="buy-panel" class="buy-panel">
+        <!-- Top Navbar-->
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="left buy-panel-close"><i class="fa fa-chevron-left"></i></div>
+            <div class="center sliding">编辑</div>
+          </div>
+        </div>
+        <div class="page page navbar-through toolbar-through">
+          <!-- Page, data-page contains page name-->
+          <div data-page="buy" class="page">
+            <div class="page-content">
+              <div class="list-block">
+                <ul>
+                  <li>
+                    <div class="item-content name">
+                      <div class="item-inner">
+                        <div class="item-title label">修改昵称：</div>
+                        <div class="item-input">
+                          <input type="text" placeholder="">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+               
+                  <li>
+                    <div class="item-content description">
+                      <div class="item-inner row">
+                        <div class="item-title label">上传作品</div>
+                        <div class="item-input">
+                          <input type='text' placeholder="一句话描述这次的作品"></input>
+                        </div>
+                        <a href="javascript:void(0);" class="col-33">
+                          <i class="fa fa-plus"></i>
+                          <input accept="image/*" type="file">
+                        </a>
+                        <a href="javascript:void(0);" class="col-33">
+                          <i class="fa fa-plus"></i>
+                          <input accept="image/*" type="file">
+                        </a>
+                        <a href="javascript:void(0);" class="col-33">
+                          <i class="fa fa-plus"></i>
+                          <input accept="image/*" type="file">
+                        </a>
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title label">
+                          所在位置：
+                        </div>
+                        <div class="item-input location">
+                          <a href=""><i class="fa fa-map-marker"></i></a>
+                          <input type="text" name="" placeholder="哈尔滨工业大学">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+               
+                  <li>
+                    <div class="item-content where">
+                      <div class="item-inner">
+                        <div class="item-title label">见面地点：</div>
+                        <div class="item-input">
+                          <input type="text" name="" placeholder="如图书馆正门、教学楼">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div class="item-content time">
+                      <div class="item-inner">
+                        <div class="item-title label">约定时间：</div>
+                        <div class="item-input">
+                          <input type="text" name="" placeholder="如周日下午三点半">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="item-content price">
+                      <div class="item-inner">
+                        <div class="item-title label">期望价格：</div>
+                        <div class="item-input">
+                          <input type="text" name="" placeholder="/每张">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div class="item-content sex">
+                      <div class="item-inner">
+                        <div class="item-title label">性别要求：</div>
+                        <div class="item-input">
+                          <a href="javascript:void(0);" class="all">不限</a>
+                          <a href="javascript:void(0);" class="male">只限男生</a>
+                          <a href="javascript:void(0);" class="female">只限女生</a>
+                          <input type="hidden" name="">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+              <p class="form-p">如果你对某一位摄影师满意，那么你就可以关注他，以后指定这位摄影师拍照哦^_^</p>
+              <div class="form-submit">
+                <p>
+                  <a href="" class="button">确认</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
     <!-- 下单结束 -->
     <!-- Path to Framework7 Library JS-->
     <script type="text/javascript" src="js/framework7.min.js"></script>

@@ -317,6 +317,25 @@
 	padding:0;
 	border: solid 1px #c8c7cc;
 }
+.list-block .description a{
+	position: relative;
+	display: block;
+	text-align: center;
+}
+.list-block .description a i {
+	padding: 5px 10px;
+	padding-bottom: 0px;
+	font-size: 60px;
+	border-radius: 10px;
+	border: solid 2px #007AFF;
+}
+.list-block .description a input {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
 .list-block .location a{
 	position: absolute;
 	display: block;
@@ -410,4 +429,92 @@
 }
 .buy .card-footer a:first-child {
 	border-right: solid 1px #e1e1e1;
+}
+.person .head-container {
+	height: 200px;
+	background: url(../img/test2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.person .head-container .overlay {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: rgba(39,40,34,0.95);
+}
+.person .head-container .center {
+	width: 50%;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+.person .head-container .center img {
+	display: block;
+	width: 50%;
+	height: 50%;
+	border-radius: 50%;
+	border: solid 3px #f44336;
+	margin: 0px auto;
+}
+.person .head-container .icon a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: rgba(255,255,255,0.8);
+	border-radius: 50%;
+	color: rgba(39,40,34,0.95);
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+}
+.person .head-container .icon a:active {
+	background: #f44336;
+} 
+.person .head-container .left {
+	float: left;
+	margin-left: 50px;
+	margin-top: 60px;
+}
+.person .head-container .right {
+	position: absolute;
+	right: 50px;
+	bottom: 90px;
+}
+.person .head-container .center p {
+	margin: 5px 0;
+	color: #fff;
+	text-align: center;
+}
+.person .card-header-pic .card-header {
+    height: 40vw;
+    background-size: cover;
+    background-position: center;
+}
+.person .card-content .article {
+	height: 57px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.person div[data-page=photo-browser-slides] {
+	z-index: 999999;
+}
+.person .fans p {
+	margin: 0px;
+	padding-top: 1em;
+	background: #fff;
+}
+.person .fans img {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	border: solid 1px #929292;
+}
+.person .buy-button a{
+	display: block;
+	padding: 5px 15px;
+	font-size: 12px;
+	color: #fff;
+	border: solid 1px #fff;
+	border-radius: 3px;
 }
