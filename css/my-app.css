@@ -369,3 +369,45 @@
 .list-block .sex a:active {
 	background: #cfcfcf;
 }
+.buy .card {
+	margin: 0;
+	margin-bottom: 10px;
+}
+.buy .card .facebook-name {
+	margin-top: 5px;
+}
+.buy .card .more {
+	margin-top: -20px;
+	float: right;
+}
+.buy .card-content .title {
+	position: relative;
+	font-size: 16px;
+	padding: 0 10px;
+	margin: 0;
+}
+.buy .card-content .title .price {
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+}
+.buy .card-content .time {
+	position: relative;
+	font-size: 12px;
+	color: #929292;
+	padding: 0 10px;
+	margin-top: 5px;
+}
+.buy .card-content .time .status {
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+}
+.buy .card-footer a{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+.buy .card-footer a:first-child {
+	border-right: solid 1px #e1e1e1;
+}
