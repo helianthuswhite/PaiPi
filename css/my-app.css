@@ -258,11 +258,11 @@
 	text-overflow: ellipsis;
 	overflow: hidden;
 }
-.more .page-content {
-	padding-bottom: 0px;
-}
 .more div[data-page=photo-browser-slides] {
 	z-index: 999999;
+}
+.more .page-content {
+	padding-bottom: 0px;
 }
 .more .fans p {
 	margin: 0px;
@@ -276,4 +276,96 @@
 	height: 100%;
 	margin: 0 auto;
 	border: solid 1px #929292;
+}
+.more .buy-button a{
+	display: block;
+	padding: 5px 15px;
+	font-size: 12px;
+	color: #fff;
+	border: solid 1px #fff;
+	border-radius: 3px;
+}
+.buy-panel {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: #fff;
+}
+.buy-panel .navbar {
+	background: #FF3B30;
+	color: #fff;
+}
+.buy-panel .navbar .center {
+	margin: 0 auto;
+}
+.buy-panel .page {
+	background: #fff;
+}
+.buy-panel .form-p{
+	color: #929292;
+	padding: 0 15px;
+}
+.list-block {
+	margin-top: 0px;
+}
+.list-block .description textarea {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding:0;
+	border: solid 1px #c8c7cc;
+}
+.list-block .location a{
+	position: absolute;
+	display: block;
+	width: 100%;
+	line-height: 44px;
+	text-align: left;	
+}
+.list-block .location a i {
+	font-size: 20px;
+	border: none;
+	padding: 0;
+	color: #D85960;
+}
+.list-block .location input {
+	padding-left: 20px;
+}
+.buy-panel .page-content {
+	padding-bottom: 0px;
+}
+.form-submit a{
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+	background: #ff3b30;
+	border: none;
+	margin: 0 auto;
+}
+.list-block .sex a {
+	display: inline-block;
+	border: solid 1px #f8f8f8;
+	font-size: 12px;
+	padding: 5px;
+	margin: 5px;
+	color: #000;
+}
+.list-block .sex a.all{
+	background: #ff9500;
+	color: #fff;
+}
+.list-block .sex a.female{
+	background: #ff3b30;
+	color: #fff;
+}
+.list-block .sex a.male{
+	background: #007aff;
+	color: #fff;
+}
+.list-block .sex a:active {
+	background: #cfcfcf;
 }

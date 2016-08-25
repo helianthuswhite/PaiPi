@@ -38,3 +38,24 @@ $$('.card-content .feeds-bottom .more').on('click', function () {
     myPhotoBrowserStandalone.open();
 });
  
+$$('.navbar .buy-button').on('click',function (e) {
+  $('#buy-panel').animate({left:"0"});
+})
+
+//关闭发布侧栏
+$$('.buy-panel-close').on('click', function (e) {
+    $('#buy-panel').animate({left:"100%"});
+});
+
+$$('.toolbar-bottom .index').on('click',function (e) {
+    location.href = 'index.html';
+})
+$$('.toolbar-bottom .person').on('click',function (e) {
+    location.href = 'person.html';
+})
+$$('.toolbar-bottom .buy').on('click',function (e) {
+    location.href = 'buy.html';
+})
+$$('.toolbar-bottom .bbs').on('click',function (e) {
+    location.href = 'bbs.html';
+})
